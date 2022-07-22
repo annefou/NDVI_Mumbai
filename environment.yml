@@ -1,6 +1,13 @@
-name: template-jp
+name: ndvi-mumbai
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python
+  - wget
+  - xarray
+  - rioxarray
+  - hvplot
+  - matplotlib
+  - cartopy
+  - pandas
